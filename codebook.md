@@ -1,0 +1,97 @@
+# Codebook
+<br><br>
+This is the codebook for the data in the tidydata.txt file
+<br><br>
+## index variables
+- activityID - the numerical label of the performed activity during the measurements (1-6)
+- activitytype - the label of the performed activity during the measurements (1:"WALKING", 2:"WALKING UPSTAIRS", 3:"WALKING DOWNSTAIRS", 
+4:"SITTING", 5:"STANDING", 6:"LAYING")
+- subjectID - The ID of the test subject
+
+## measurement variables
+- time domain signal: body acceleration - mean value in X direction
+- time domain signal: body acceleration - mean value in Y direction
+- time domain signal: body acceleration - mean value in Z direction
+- time domain signal: body acceleration - standard deviation in X direction
+- time domain signal: body acceleration - standard deviation in Y direction
+- time domain signal: body acceleration - standard deviation in Z direction
+- time domain signal:Gravity acceleration - mean value in X direction
+- time domain signal:Gravity acceleration - mean value in Y direction
+- time domain signal:Gravity acceleration - mean value in Z direction
+- time domain signal:Gravity acceleration - standard deviation in X direction
+- time domain signal:Gravity acceleration - standard deviation in Y direction
+- time domain signal:Gravity acceleration - standard deviation in Z direction
+- time domain signal: body accelerationJerk - mean value in X direction
+- time domain signal: body accelerationJerk - mean value in Y direction
+- time domain signal: body accelerationJerk - mean value in Z direction
+- time domain signal: body accelerationJerk - standard deviation in X direction
+- time domain signal: body accelerationJerk - standard deviation in Y direction
+- time domain signal: body accelerationJerk - standard deviation in Z direction
+- time domain signal: body gyroscopic velocity - mean value in X direction
+- time domain signal: body gyroscopic velocity - mean value in Y direction
+- time domain signal: body gyroscopic velocity - mean value in Z direction
+- time domain signal: body gyroscopic velocity - standard deviation in X direction
+- time domain signal: body gyroscopic velocity - standard deviation in Y direction
+- time domain signal: body gyroscopic velocity - standard deviation in Z direction
+- time domain signal: body gyroscopic velocityJerk - mean value in X direction
+- time domain signal: body gyroscopic velocityJerk - mean value in Y direction
+- time domain signal: body gyroscopic velocityJerk - mean value in Z direction
+- time domain signal: body gyroscopic velocityJerk - standard deviation in X direction
+- time domain signal: body gyroscopic velocityJerk - standard deviation in Y direction
+- time domain signal: body gyroscopic velocityJerk - standard deviation in Z direction
+- time domain signal: body acceleration magnitude - mean value
+- time domain signal: body acceleration magnitude - standard deviation
+- time domain signal:Gravity acceleration magnitude - mean value
+- time domain signal:Gravity acceleration magnitude - standard deviation
+- time domain signal: body accelerationJerk magnitude - mean value
+- time domain signal: body accelerationJerk magnitude - standard deviation
+- time domain signal: body gyroscopic velocity magnitude - mean value
+- time domain signal: body gyroscopic velocity magnitude - standard deviation
+- time domain signal: body gyroscopic velocityJerk magnitude - mean value
+- time domain signal: body gyroscopic velocityJerk magnitude - standard deviation
+- frequency domain signal: body acceleration - mean value in X direction
+- frequency domain signal: body acceleration - mean value in Y direction
+- frequency domain signal: body acceleration - mean value in Z direction
+- frequency domain signal: body acceleration - standard deviation in X direction
+- frequency domain signal: body acceleration - standard deviation in Y direction
+- frequency domain signal: body acceleration - standard deviation in Z direction
+- frequency domain signal: body acceleration - mean frequency in X direction
+- frequency domain signal: body acceleration - mean frequency in Y direction
+- frequency domain signal: body acceleration - mean frequency in Z direction
+- frequency domain signal: body accelerationJerk - mean value in X direction
+- frequency domain signal: body accelerationJerk - mean value in Y direction
+- frequency domain signal: body accelerationJerk - mean value in Z direction
+- frequency domain signal: body accelerationJerk - standard deviation in X direction
+- frequency domain signal: body accelerationJerk - standard deviation in Y direction
+- frequency domain signal: body accelerationJerk - standard deviation in Z direction
+- frequency domain signal: body accelerationJerk - mean frequency in X direction
+- frequency domain signal: body accelerationJerk - mean frequency in Y direction
+- frequency domain signal: body accelerationJerk - mean frequency in Z direction
+- frequency domain signal: body gyroscopic velocity - mean value in X direction
+- frequency domain signal: body gyroscopic velocity - mean value in Y direction
+- frequency domain signal: body gyroscopic velocity - mean value in Z direction
+- frequency domain signal: body gyroscopic velocity - standard deviation in X direction
+- frequency domain signal: body gyroscopic velocity - standard deviation in Y direction
+- frequency domain signal: body gyroscopic velocity - standard deviation in Z direction
+- frequency domain signal: body gyroscopic velocity - mean frequency in X direction
+- frequency domain signal: body gyroscopic velocity - mean frequency in Y direction
+- frequency domain signal: body gyroscopic velocity - mean frequency in Z direction
+- frequency domain signal: body acceleration magnitude - mean value
+- frequency domain signal: body acceleration magnitude - standard deviation
+- frequency domain signal: body acceleration magnitude - mean frequency
+- frequency domain signal: bodyBody accelerationJerk magnitude - mean value
+- frequency domain signal: bodyBody accelerationJerk magnitude - standard deviation
+- frequency domain signal: bodyBody accelerationJerk magnitude - mean frequency
+- frequency domain signal: bodyBody gyroscopic velocity magnitude - mean value
+- frequency domain signal: bodyBody gyroscopic velocity magnitude - standard deviation
+- frequency domain signal: bodyBody gyroscopic velocity magnitude - mean frequency
+- frequency domain signal: bodyBody gyroscopic velocityJerk magnitude - mean value
+- frequency domain signal: bodyBody gyroscopic velocityJerk magnitude - standard deviation
+- frequency domain signal: bodyBody gyroscopic velocityJerk magnitude - mean frequency
+- angle(t body accelerationMean,gravity)
+- angle(t body accelerationJerkMean),gravityMean)
+- angle(t body gyroscopic velocityMean,gravityMean)
+- angle(t body gyroscopic velocityJerkMean,gravityMean)
+- angle(X,gravityMean)
+- angle(Y,gravityMean)
+- angle(Z,gravityMean)
